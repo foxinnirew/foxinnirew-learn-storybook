@@ -1,6 +1,6 @@
 {
   "name": "foxinnirew-learn-storybook",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "description": "Learning the Storybook Design System",
   "main": "dist/index.js",
@@ -15,7 +15,6 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1",
-
     "polished": "^3.6.6",
     "prop-types": "^15.7.2",
     "styled-components": "^5.2.0"
