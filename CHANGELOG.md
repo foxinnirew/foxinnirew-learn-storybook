@@ -1,3 +1,15 @@
+# v0.4.0 (Tue Mar 02 2021)
+
+#### 🚀 Enhancement
+
+- Add Example's Storybook, Dev Deps and Edit Avatar for a Test [#4](https://github.com/foxinnirew/foxinnirew-learn-storybook/pull/4) ([@foxinnirew](https://github.com/foxinnirew))
+
+#### Authors: 1
+
+- Foxinni ([@foxinnirew](https://github.com/foxinnirew))
+
+---
+
 # v0.3.0 (Tue Mar 02 2021)
 
 #### 🚀 Enhancement
