@@ -1,3 +1,15 @@
+# v0.3.0 (Tue Mar 02 2021)
+
+#### 🚀 Enhancement
+
+- Merge example components [#3](https://github.com/foxinnirew/foxinnirew-learn-storybook/pull/3) ([@foxinnirew](https://github.com/foxinnirew))
+
+#### Authors: 1
+
+- Foxinni ([@foxinnirew](https://github.com/foxinnirew))
+
+---
+
 # v0.2.0 (Tue Mar 02 2021)
 
 #### 🚀 Enhancement
