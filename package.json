@@ -1,7 +1,12 @@
 {
-  "name": "my-app",
+  "name": "foxinnirew-learn-storybook",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Learning the Storybook Design System",
+  "main": "dist/index.js",
+  "repository": "https://github.com/foxinnirew/foxinnirew-learn-storybook.git",
+  "author": "mjoubert@rew.ca",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -13,9 +18,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "release": "auto shipit --base-branch=master"
   },
   "eslintConfig": {
     "extends": [
@@ -33,6 +39,21 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "auto": "^10.16.8",
+    "cross-env": "^7.0.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
     ]
   }
 }
